@@ -7,8 +7,11 @@
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
         .info { background-color: #f4f4f4; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
-        img { border: 1px solid #ddd; border-radius: 4px; padding: 5px; }
+        img { border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 10px; }
         .media-section { margin-top: 30px; }
+        h1, h2, h3 { color: #333; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -27,14 +30,19 @@
         <img src="Lab05_Ex2.1.png" alt="Sản phẩm PNG" width="100%">
 
         <h3>2. Tài liệu báo cáo (PDF)</h3>
-        <p>Nhấn vào đây để xem chi tiết: <a href="Lab05_Ex1.2.pdf" target="_blank">Mở file Lab05_Ex1.2.pdf</a></p>
+        <p>Nhấn vào đây để xem chi tiết: <a href="Lab05_Ex1.2.pdf" target="_blank">Lab05_Ex1.2.pdf</a></p>
 
         <h3>3. Video giới thiệu</h3>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe 
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                src="https://www.youtube.com/embed/T9mHmgrCtMQ" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
     </div>
 
 </body>
